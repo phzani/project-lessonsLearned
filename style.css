@@ -6,11 +6,12 @@
     background-color: rgb(253, 251, 251);
     margin: 0;
 }
-#cabecalho {
+header#cabecalho {
     background-color: green;
-    padding-top: 0px;
     padding-bottom: 20px;
-    
+    position: fixed;
+    width: 1368px;
+    height: 100px;
 }
 
 #cabecalho h1#titulo{
@@ -34,12 +35,18 @@
     color: black;
 
 }
-img#minha_foto {
+img#minha_foto {   
     width: 250px;
-    padding: 30px;
-    
-    
+    padding: 20px;
+    padding-top: 150px;    
 }
+.tabela {
+    padding: 20px;
+}
+.tabela table {
+    position: absolute;
+}
+
 ol#licoes_aprendidas {
     padding: 20px;
     text-align: left;
@@ -72,8 +79,11 @@ ul#licoes_a_aprender {
     display: inline-flex;
     offset: top;
     padding: 20px;
-       
 }
+.about div {
+padding-bottom: 100px;
+}
+
 .lado-esquerdo {
     width: 500px;
     padding: 20px;
