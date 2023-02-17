@@ -1,0 +1,43 @@
+*{
+    margin: 0 auto;
+}
+.body {
+    background-color: rgb(253, 251, 251);
+    margin: 0;
+}
+#cabecalho {
+    background-color: green;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    
+}
+
+#cabecalho h1#titulo{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+
+}
+
+.menu li {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.menu ul li a:hover{
+    color: black;
+
+}
+img#minha_foto {
+    width: 250px;
+    padding: 30px;
+    
+}
